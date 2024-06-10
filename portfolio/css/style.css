@@ -29,7 +29,7 @@ ul {
 li {
     margin-bottom: 10px;
 }
-img {
+.img1 {
     display: block;
     margin: 0 auto;
     border-radius: 50%;
@@ -181,15 +181,13 @@ nav ul li:first-child {
 }
 /* Estilos para os cards */
 .card {
-    background-color: #f9f9f9;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    overflow: hidden;
+    display: inline;
+    justify-content: space-evenly;
+    
 }
 
 .card img {
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
@@ -207,7 +205,6 @@ nav ul li:first-child {
 
 /* Estilos para o rodapé */
 footer {
-    background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
