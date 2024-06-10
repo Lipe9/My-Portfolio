@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Felipe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="sua_foto.jpg" alt="Sua Foto" class="img1">
+            <div>
+                <h1 class="name">Felipe Silva</h1>
+                <p>Programador</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#bio">Biografia</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#certi">Certificados</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="bio">
+        <h2>Biografia</h2>
+        <p>Escreva um pouco sobre você aqui.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Habilidades Principais</h2>
+        <div class="card">
+            <img src="certificado1.jpg" alt="Certificado 1">
+            <div class="card-content">
+                <h3>Certificado 1</h3>
+                <p>Descrição do certificado 1.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="certificado2.jpg" alt="Certificado 2">
+        </div>
+        <!-- Adicione mais cards conforme necessário -->
+    </section>
+
+    <section id="projects">
+        <h2>Projetos</h2>
+        <div class="card">
+            <img src="projeto1.jpg" alt="Projeto 1">
+            <div class="card-content">
+                <h3>Projeto 1</h3>
+                <p>Descrição do projeto 1.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="projeto2.jpg" alt="Projeto 2">
+            <div class="card-content">
+                <h3>Projeto 2</h3>
+                <p>Descrição do projeto 2.</p>
+            </div>
+        </div>
+        <!-- Adicione mais cards conforme necessário -->
+    </section>
+    <section id="certi">
+        <h2>Certificados</h2>
+        <div class="card">
+            <img src="img/Coursera AKXWFUV33ZZB_page-0001.jpg" alt="Certificado 1">
+        </div>
+        <div class="card">
+            <img src="img/Coursera XZ7T5XJAJH8D_page-0001.jpg" alt="Certificado 2">
+            <div class="card-content">
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/photo.png" alt="Certificado 3">
+        </div>
+        <!-- Adicione mais cards conforme necessário -->
+    </section>
+
+    <footer>
+        <div class="contact-info">
+            <p>Telefone: (xx) xxxx-xxxx</p>
+            <p>Email: seuemail@example.com</p>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <!-- Adicione mais ícones e links conforme necessário -->
+        </div>
+        <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        // Código JavaScript para rolar suavemente para as seções
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
